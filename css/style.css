@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* fixed nav logo cart profile */
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    background-color: #FF6900;
+}
+
+#genres {
+    display: flex;
+    color: white;
+}
+
+#boolean-logo {
+    height: 25px;
+}
+
+.small-logos {
+    fill: white;
+    height: 18px;
+}
