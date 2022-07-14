@@ -1,30 +1,174 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
 
 
-/* fixed nav logo cart profile */
+ /* fixed nav logo cart profile */
 
-nav {
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    height: 55px;
-    width: 100%;
-    background-color: #FF6900;
-}
+ nav {
+     display: flex;
+     flex-direction: row;
+     position: fixed;
+     justify-content: space-around;
+     align-items: center;
+     height: 55px;
+     width: 100%;
+     background-color: #FF6900;
+ }
 
-#genres {
-    display: flex;
-    color: white;
-}
+ #genres {
+     margin-left: 70px;
+     display: flex;
+     color: white;
+ }
 
-#boolean-logo {
-    height: 25px;
-}
 
-.small-logos {
-    fill: white;
-    height: 18px;
-}
+
+ #boolean-logo {
+     display: flex;
+     height: 25px;
+ }
+
+ .small-logos {
+     margin-right: 70px;
+     display: flex;
+     fill: white;
+     height: 18px;
+ }
+
+
+
+ /* shop items */
+
+
+
+ section {
+     display: flex;
+     max-width: 1000px;
+     flex-wrap: wrap;
+     margin: auto;
+ }
+
+
+
+ .container {
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ .scheda {
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     margin-top: 100px;
+     width: 320px;
+     height: 462px;
+ }
+
+ .item-text {
+     position: relative;
+     top: 465px;
+
+ }
+
+ .heart {
+     font-size: 30px;
+     background-color: white;
+     border: none;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 30px;
+     position: relative;
+     left: 270px;
+     bottom: 516px;
+ }
+
+ .redtext {
+     color: #e02c26;
+ }
+
+ .discount {
+     text-decoration: line-through;
+     color: #000000;
+ }
+
+ .heart:hover {
+     color: #e02c26;
+
+ }
+
+ .prima {
+     background-image: url(../img/1.webp);
+     background-size: cover;
+ }
+
+ .prima:hover {
+     background-image: url(../img/1b.webp);
+ }
+
+ .seconda {
+     background-image: url(../img/2.webp);
+     background-size: cover;
+ }
+
+ .seconda:hover {
+     background-image: url(../img/2b.webp);
+ }
+
+ .terza {
+     background-image: url(../img/3.jpg);
+     background-size: cover;
+ }
+
+ .terza:hover {
+     background-image: url(../img/3b.webp);
+ }
+
+ .quarta {
+     background-image: url(../img/4.webp);
+     background-size: cover;
+ }
+
+ .quarta:hover {
+     background-image: url(../img/4b.webp);
+ }
+
+ .quinta {
+     background-image: url(../img/5.webp);
+     background-size: cover;
+ }
+
+ .quinta:hover {
+     background-image: url(../img/5b.webp);
+ }
+
+ .sesta {
+     background-image: url(../img/6.webp);
+     background-size: cover;
+ }
+
+ .sesta:hover {
+     background-image: url(../img/6b.webp);
+ }
+
+
+
+ /* fixed footer wirh info & socials */
+
+ #blackbottombar {
+     margin-top: 100px;
+     height: 70px;
+     width: 100%;
+     background-color: #1A1A1A;
+     color: white;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ #legal {
+     display: flex;
+ }
