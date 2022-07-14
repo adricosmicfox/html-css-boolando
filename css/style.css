@@ -20,25 +20,34 @@
  }
 
  #genres {
-     margin-left: 70px;
+     margin-left: 120px;
      display: flex;
      color: white;
  }
 
-
+ nav>div>p {
+     font-weight: bold;
+     font-size: 12px;
+     margin-right: 6px;
+ }
 
  #boolean-logo {
      display: flex;
      height: 25px;
+     margin-right: 90px;
  }
 
  .small-logos {
-     margin-right: 70px;
+     margin-right: 120px;
      display: flex;
      fill: white;
      height: 18px;
  }
 
+ nav>div>svg {
+     height: 15px;
+     margin-left: 6px;
+ }
 
 
  /* shop items */
@@ -201,4 +210,29 @@
 
  #legal {
      display: flex;
+ }
+
+ #infos {
+     font-size: 12px;
+ }
+
+ #legal>p {
+     font-size: 9px;
+     margin-right: 6px;
+ }
+
+ #socials {
+     font-size: 12px;
+     font-weight: 400;
+ }
+
+ #socials>svg {
+     margin-right: 5px;
+     margin-left: 5px;
+ }
+
+ .small-logos2 {
+     display: flex;
+     fill: white;
+     height: 18px;
  }
