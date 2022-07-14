@@ -16,6 +16,7 @@
      height: 55px;
      width: 100%;
      background-color: #FF6900;
+     z-index: 1;
  }
 
  #genres {
@@ -89,7 +90,7 @@
      color: #e02c26;
  }
 
- .discount {
+ .originalprice {
      text-decoration: line-through;
      color: #000000;
  }
@@ -98,6 +99,35 @@
      color: #e02c26;
 
  }
+
+ .discount {
+     font-weight: bold;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     font-size: 10px;
+     color: white;
+     background-color: #e02c26;
+     position: relative;
+     bottom: 130px;
+     right: 45px;
+ }
+
+ .ecoitem {
+     font-weight: bold;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     font-size: 10px;
+     color: white;
+     background-color: #279c23;
+     position: relative;
+     bottom: 130px;
+     right: 45px;
+ }
+
 
  .prima {
      background-image: url(../img/1.webp);
